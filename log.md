@@ -4,6 +4,8 @@
   - cargo install cargo-generate中にエラー.
     - unstableというなら，stableな書き方を教えて欲しい．
     - わからない．バージョン落す．
+    - https://github.com/rust-lang/rust/pull/83366
+    - rustよくわからないのに文法エラーと言われても対処法がよくわからない
     - ```
       error[E0658]: arbitrary expressions in key-value attributes are unstable
       --> $HOME/.cargo/registry/src/github.com-1ecc6299db9ec823/cargo-generate-0.10.1/src/lib.rs:1:9
