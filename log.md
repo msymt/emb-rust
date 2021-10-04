@@ -1,10 +1,13 @@
 # 作業ログ
 
+- 2021/10/04: 文法
+  - p79まで進めた
+  - 参考になりそう：https://euske.github.io/slides/sem20170919/index.html
 - 2021/10/03: 環境構築と文法
   - 結局`#[doc = include_str!("../README.md")]`をコメントアウトして済ませた．多分よくない
     - 参考になりそう：https://giters.com/clap-rs/clap/issues/2618?amp=1
   - p71まで進めた
-    - 2つの違い何
+    - 2つの違い何→所有権が関係している
     ```Rust
     fn main() {
       let mut array = [1, 2, 3, 4, 5];
